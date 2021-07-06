@@ -18,3 +18,15 @@ Notes on AWS CloudFormation.
     * Output. Could be passed to other stacks.
 7. Best practices:
    * Store credentials in AWS Secrets Manager
+   * Reference non-confidential parameters (e.g. memory size) in AWS Systems Manager Parameter Store.
+   * Use YAML syntax shortcuts. (e.g. !GetAtt instead of the full Fn::GetAtt syntax)
+   * Add comments and background information.
+   * Check code with AWS CloudFormation, cfn-guard, and cfn-nag.
+8. CloudFormation sample templates
+   * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-services-us-west-2.html
+   * https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/LAMP_Single_Instance.template
+   * https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/Rails_Single_Instance.template
+   * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-appframeworks-us-west-2.html
+   * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/CHAP_TemplateQuickRef.html
+   * https://aws.amazon.com/cloudformation/resources/templates/
+
