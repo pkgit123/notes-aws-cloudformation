@@ -30,5 +30,8 @@ Notes on AWS CloudFormation.
    * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/CHAP_TemplateQuickRef.html
    * https://aws.amazon.com/cloudformation/resources/templates/
 
+## AWS CloudFormation documentation on validating a template
+* https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-validate-template.html
+
 ## cfn-nag
 * https://github.com/stelligent/cfn_nag
