@@ -9,5 +9,7 @@ Notes on AWS CloudFormation.
 4. CloudFormation keep track of current state of AWS infrastructure. If you make changes directly with CLI or management console, then resources will be out of sync with snapshot. This discrepency is called **"drift"**. 
 5. CF Templates are YAML or JSON.
 6. Here are 9 sections of template:
-    a. Description
-    b. Metadata
+    * Description
+    * Metadata
+    * Parameters
+    * 
