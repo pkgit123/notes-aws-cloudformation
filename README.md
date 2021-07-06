@@ -11,5 +11,10 @@ Notes on AWS CloudFormation.
 6. Here are 9 sections of template:
     * Description
     * Metadata
-    * Parameters
-    * 
+    * Parameters. Best practice to store parameters in AWS Systems Manager Parameter Store.
+    * Mappings. Logic, e.g. input value as condition.
+    * Transform. Specify macros for template reuse. Specify SAM for serverless stacks.
+    * Resources.
+    * Output. Could be passed to other stacks.
+7. Best practices:
+   * Store credentials in AWS Secrets Manager
