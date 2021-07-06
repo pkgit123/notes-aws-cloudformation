@@ -30,3 +30,5 @@ Notes on AWS CloudFormation.
    * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/CHAP_TemplateQuickRef.html
    * https://aws.amazon.com/cloudformation/resources/templates/
 
+## cfn-nag
+* https://github.com/stelligent/cfn_nag
