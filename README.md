@@ -35,3 +35,9 @@ Notes on AWS CloudFormation.
 
 ## cfn-nag
 * https://github.com/stelligent/cfn_nag
+
+## Examples using AWS CloudShell (AWS CLI in Management Console)
+
+```
+aws cloudformation validate-template --template-url https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/AutoScalingMultiAZWithNotifications.template
+```
