@@ -38,6 +38,7 @@ Notes on AWS CloudFormation.
 
 ## Examples using AWS CloudShell (AWS CLI in Management Console)
 
+Example #1 using template from AWS Documentation.  https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-services-us-west-2.html
 ```
 aws cloudformation validate-template --template-url https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/AutoScalingMultiAZWithNotifications.template
 ```
